@@ -69,6 +69,7 @@ reatorrent.py     El código de la app
 reatorrent.ico    Ícono (ventana, barra de tareas y .exe)
 reatorrent.png    Ícono en imagen grande
 LEEME.txt         Instrucciones cortas que van dentro del .zip
+LICENSE           Licencia MIT
 ```
 
 Cuando la app se usa, crea junto a ella estas carpetas. Git no las sube:
@@ -85,3 +86,8 @@ Descargas/        Lo que bajas (se puede cambiar desde la app)
 - La primera vez, Windows puede preguntar si la app puede usar la red. Hay que permitirlo para que
   pueda conectarse con otras personas.
 - Algunos antivirus desconfían de los programas hechos con PyInstaller aunque no tengan nada malo.
+
+## Licencia
+
+ReaTorrent usa la licencia [MIT](LICENSE). Puedes usar, copiar y cambiar el código libremente,
+siempre que mantengas el aviso de autoría. Se entrega tal cual, sin garantía.
