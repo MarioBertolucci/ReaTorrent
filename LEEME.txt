@@ -1,0 +1,33 @@
+ReaTorrent - app sencilla para descargar torrents
+==================================================
+
+Cómo abrirla
+  Doble clic en "ReaTorrent.exe" (o en el acceso directo del escritorio).
+
+Es portable
+  Copia la carpeta completa (ReaTorrent.exe + _internal + datos + Descargas)
+  a una USB u otra compu con Windows y funciona sin instalar nada.
+  No borres ni separes la carpeta "_internal": el .exe la necesita.
+
+Qué puede hacer
+  - Abrir archivos .torrent y enlaces magnet (botones de arriba).
+  - Ver cada descarga con su avance, velocidad, personas conectadas y tiempo que falta.
+  - Pausar, reanudar y quitar descargas.
+  - Límites de velocidad: poner un máximo de bajada y de subida (0 = sin límite).
+  - Detalles de la descarga elegida (abajo):
+      General  -> tamaño, cuánto has bajado y subido, etc.
+      Archivos -> doble clic en un archivo para bajarlo u omitirlo.
+      Personas -> con quién estás conectado.
+  - Pestaña "Buscar": busca en Internet Archive (archive.org), que tiene
+    películas antiguas, música, libros y programas que se pueden bajar legalmente.
+    Doble clic en un resultado para bajarlo.
+
+Dónde quedan las cosas
+  C:\rea\Descargas  -> lo que bajas (se puede cambiar con "Carpeta de descargas").
+  C:\rea\datos      -> configuración y avance guardado. Al cerrar la app se guarda
+                       el avance y al abrirla sigue donde iba.
+
+Código
+  reatorrent.py es el código. Solo hace falta para cambiar la app;
+  para usarla basta el .exe. Para volver a crear el .exe se necesita
+  Python con libtorrent y pyinstaller.

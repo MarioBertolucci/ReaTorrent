@@ -1,0 +1,14 @@
+# Lo que bajas y tu configuración (es personal)
+Descargas/
+datos/
+
+# La versión .exe (se vuelve a crear con PyInstaller)
+ReaTorrent.exe
+_internal/
+build/
+dist/
+*.spec
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
